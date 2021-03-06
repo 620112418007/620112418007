@@ -1,0 +1,13 @@
+version: '3'
+
+services: 
+
+  maildev:
+    image: maildev/maildev
+    hostname: mail
+    ports: 
+      - "1080:80"
+      - "1025:25"
+
+
+      
